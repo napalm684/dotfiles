@@ -55,8 +55,8 @@ export AWS_REGION=us-east-1
 # Add .NET Core SDK tools
 export PATH="$PATH:/Users/svause/.dotnet/tools"
 
-# Set default working directory
-cd ~/dev
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh. (Configuration Wizard Values)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Set default working directory
+cd ~/dev
